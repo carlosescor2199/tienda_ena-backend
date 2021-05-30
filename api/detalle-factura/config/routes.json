@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/detalle-facturas",
+      "handler": "detalle-factura.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/detalle-facturas/count",
+      "handler": "detalle-factura.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/detalle-facturas/:id",
+      "handler": "detalle-factura.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/detalle-facturas",
+      "handler": "detalle-factura.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/detalle-facturas/:id",
+      "handler": "detalle-factura.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/detalle-facturas/:id",
+      "handler": "detalle-factura.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

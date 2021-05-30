@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "detalle_facturas",
+  "info": {
+    "name": "detalle_factura"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "producto": {
+      "model": "productos"
+    },
+    "subtotal": {
+      "type": "float"
+    },
+    "factura": {
+      "model": "factura"
+    }
+  }
+}
