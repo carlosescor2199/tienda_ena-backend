@@ -43,6 +43,16 @@
     },
     "categoria": {
       "model": "categoria"
+    },
+    "promocion": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "numero_ventas": {
+      "type": "biginteger",
+      "required": true,
+      "default": "0"
     }
   }
 }

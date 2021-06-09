@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/clientes",
-      "handler": "clientes.find",
+      "path": "/totales",
+      "handler": "totales.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/clientes/count",
-      "handler": "clientes.count",
+      "path": "/totales/count",
+      "handler": "totales.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/clientes/:id",
-      "handler": "clientes.findOne",
+      "path": "/totales/:id",
+      "handler": "totales.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/clientes",
-      "handler": "clientes.create",
+      "path": "/totales",
+      "handler": "totales.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/clientes/:id",
-      "handler": "clientes.update",
+      "path": "/totales/:id",
+      "handler": "totales.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/clientes/:id",
-      "handler": "clientes.delete",
+      "path": "/totales/:id",
+      "handler": "totales.delete",
       "config": {
         "policies": []
       }

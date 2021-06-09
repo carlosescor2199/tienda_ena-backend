@@ -68,6 +68,11 @@
       "type": "string",
       "required": true,
       "maxLength": 10
+    },
+    "estrella": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }

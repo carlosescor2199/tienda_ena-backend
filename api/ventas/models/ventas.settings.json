@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "clientes",
+  "collectionName": "ventas",
   "info": {
-    "name": "clientes",
+    "name": "ventas",
     "description": ""
   },
   "options": {
@@ -12,14 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "estrella": {
-      "type": "boolean",
-      "default": false,
-      "required": true
+    "producto": {
+      "model": "productos"
     },
     "users_permissions_user": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "total": {
+      "type": "float",
+      "required": true
     }
   }
 }

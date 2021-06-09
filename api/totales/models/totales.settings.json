@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "detalle_facturas",
+  "collectionName": "totales",
   "info": {
-    "name": "detalle_factura"
+    "name": "Totales"
   },
   "options": {
     "increments": true,
@@ -11,14 +11,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "producto": {
-      "model": "productos"
-    },
-    "subtotal": {
+    "total_ventas": {
       "type": "float"
     },
-    "factura": {
-      "model": "factura"
+    "numero_ventas": {
+      "type": "biginteger"
     }
   }
 }
